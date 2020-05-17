@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background-image: url("https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-size: cover;
+    color: white;
+}
+
+#div1{
+    transition: all ease .7s;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#div1:hover{
+    width: 500px;
+    height: 500px;
+}
+
+h6{
+    font-size: 15px;
+    font-family: 'Abel', sans-serif;
+}
+
+button{
+    transition: all ease .7s;
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Abel', sans-serif;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: red;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    width: 160px;
+    height: 100px;
+}
